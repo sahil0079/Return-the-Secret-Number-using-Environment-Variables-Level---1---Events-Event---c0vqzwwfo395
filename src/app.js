@@ -21,6 +21,7 @@ app.get('/api/get-env', (req, res) => {
         });
     }else{
     res.status(404).json({err: 'Not Found'})
+    }
 });
 
 module.exports = app;
